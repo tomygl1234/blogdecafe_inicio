@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--  Prefetch  -->
+    <link rel="prefetch" href="index.html" as="document">
+
+    <!--    Preload     -->
+    <link rel="preload" href="normalize.css" as="style">
+    <link rel="stylesheet" href="normalize.css"> 
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap"
+    crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="barra contenedor">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+
+            <nav class="navegacion">
+
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+
+            </nav>
+        </div>
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>    
+    </header>
+    <main class="contenedor">
+        <h3 class="centrar-texto">"Café, Café y sólo Café..."</h3>
+        <picture>
+
+            <source loading="lazy" srcset="img/blog1.webp" alt="img" type="image/webp">
+            <img loading="lazy" src="/img/blog1.jpg" alt="imagen del blog">
+
+       </picture>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus sollicitudin, ultrices mi penatibus sed ultricies duis conubia dictumst, dignissim curabitur tempor lacus vulputate nisl cursus ac. Eget sapien enim scelerisque conubia taciti semper nascetur, himenaeos massa sagittis suspendisse posuere dictumst nisi in, inceptos vehicula natoque urna venenatis ac. Porta metus sem turpis himenaeos penatibus commodo taciti mus, ultrices cum imperdiet sollicitudin ligula volutpat erat aenean fermentum, odio sociis rhoncus dictum posuere etiam luctus. Eros dui justo dignissim rutrum pulvinar aliquam porta per dapibus dictumst viverra ante augue venenatis faucibus dis bibendum, mauris potenti himenaeos nibh sociis sapien metus quisque placerat ullamcorper a vehicula eu mollis facilisis.
+
+            Sem venenatis mollis vitae erat aptent class integer, faucibus id sollicitudin nunc cubilia cum eget tortor, arcu per at quisque pretium lectus. Ante dictumst lobortis taciti pretium fames lacinia, parturient nisi curae suscipit cras nisl fusce, risus sapien pellentesque nunc eleifend. Nostra ligula turpis luctus sociosqu nisi placerat lacus tellus commodo mauris, vitae diam facilisis mattis laoreet malesuada ullamcorper tempus donec est consequat, vehicula augue faucibus in convallis platea ultrices quis at.
+            
+            Himenaeos ligula porttitor praesent fringilla id lacus a venenatis libero, litora ullamcorper condimentum ultricies proin luctus tempus primis, ut odio ad gravida diam dictum at pharetra. Id eros a ac ridiculus sociosqu natoque diam cras magnis, porta posuere sodales platea nostra molestie viverra. Etiam tincidunt volutpat purus nunc eros ut at odio dignissim, euismod condimentum ligula curabitur pretium conubia dapibus duis sociis, nostra viverra lobortis libero malesuada bibendum scelerisque proin. Ut a quam morbi nascetur montes malesuada diam aliquet cras sagittis, magnis taciti fusce hendrerit suscipit laoreet rutrum elementum lectus, lobortis lacus cum sollicitudin fermentum himenaeos netus molestie tempus.
+            
+           
+        </p>
+        <a href="index.html" class="boton boton--secundario">Volver a inicio</a>
+        
+    </main>
+    <footer class="footer">
+        <div class="barra contenedor">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+
+            <nav class="navegacion">
+
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+
+            </nav>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
